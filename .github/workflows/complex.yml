@@ -1,4 +1,4 @@
-name: complex
+name: Complex
 
 on: push
 
@@ -8,7 +8,7 @@ jobs:
     steps:
     - run: date
   windows:
-      runs-on: windows-latest
+    runs-on: windows-latest
     steps:
     - run: date
   macos:
